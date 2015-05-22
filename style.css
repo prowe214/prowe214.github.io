@@ -116,6 +116,14 @@ h4 {
   padding: 0;
 }
 
+h5 {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  font-weight: normal;
+  text-decoration: emphasis;
+}
+
 p {
   margin: 0;
   padding: 0;
