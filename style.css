@@ -1,0 +1,51 @@
+*, *:before, *:after { box-sizing: border-box; }
+
+/* HEADER */
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+  padding: 20px;
+  background-color: rgba(45,45,45,1);
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  color: rgba(175,175,175,1)
+}
+
+/* ARTICLES */
+
+
+
+article {
+  display: block;
+  background-color: rgba(175,175,175,1);
+  padding: 5px;
+  clear: both;
+}
+
+img {
+  width: 250px;
+  float: left;
+  box-shadow: 3px 3px 5px black;
+}
+
+
+/* FOOTER */
+
+.contact {
+  padding: 2px;
+  display: inline-block;
+
+}
