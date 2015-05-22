@@ -10,28 +10,55 @@ body {
 header {
   padding: 20px;
   background-color: rgba(45,45,45,1);
+  margin-bottom: 50px;
+}
+
+.initials {
+  font-size: 80px;
+  font-weight: bolder;
+  float: left;
+  position: relative;
+  left: 60px;
+  top: -20px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  margin-right: 40px;
 }
 
 h1 {
   padding: 0;
   margin: 0;
+  margin-left: 280px;
   color: white;
 }
 
 h2 {
   padding: 0;
   margin: 0;
+  margin-left: 280px;
   font-weight: normal;
   color: rgba(175,175,175,1)
 }
 
 aside {
   width: 250px;
-  float: left;
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  background-color: rgba(105,171,31,1);
+  padding: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.profpic {
+  width: 200px;
+  margin-bottom: 10px;
 }
 
 main {
-  max-width: 1000px;
+  margin-right: 20px;
+  margin-left: 300px;
 }
 
 /* ARTICLES */
@@ -42,7 +69,6 @@ article {
   display: block;
   background-color: rgba(175,175,175,1);
   padding: 15px;
-  clear: both;
   margin-bottom: 5px;
 }
 
@@ -74,8 +100,22 @@ p {
 
 /* FOOTER */
 
+footer {
+  margin: 0 auto;
+  color: white;
+  background-color: rgba(45,45,45,1);
+  text-align: center;
+  min-width: 100%;
+  max-width: 100%;
+  position: absolute;
+  bottom: 0px;
+  padding: 20px;
+}
+
 .contact {
+  color: white;
+  text-decoration: none;
   padding: 2px;
   display: inline-block;
-
+  margin: 0 25px 0 25px;
 }
