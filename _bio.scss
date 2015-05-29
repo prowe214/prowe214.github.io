@@ -1,0 +1,21 @@
+@media (min-width: 500px) {
+  aside {
+    width: 250px;
+    position: fixed;
+    top: 150px;
+    left: 20px;
+  box-shadow: 5px 5px 5px gray;
+  }
+
+}
+
+aside {
+  display: block;
+  background-color: $biobg;
+  padding: 20px;
+}
+
+.profpic {
+  width: 100%;
+  margin-bottom: 10px;
+}

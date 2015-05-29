@@ -1,0 +1,77 @@
+
+header {
+  padding: 10px;
+  padding-bottom: 10px;
+  background-color: $headerbg;
+  width: 100%;
+  top: 0;
+}
+
+.initials {display: none;}
+
+section.icons {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.icons a {
+  font-size: 20px;
+  color: $headercolor;
+  margin: 10px;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  color: $headercolor;
+  text-align: center;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  text-align: center;
+  color: $subheadercolor;
+}
+
+@media (min-width: 500px) {
+
+  header {
+    margin-bottom: 50px;
+    position: fixed;
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+
+  .initials {
+    display: inline-block;
+    font-size: 80px;
+    font-weight: bolder;
+    float: left;
+    position: relative;
+    left: 60px;
+    top: -20px;
+    margin: 0;
+    padding: 0;
+    color: $headercolor;
+    margin-right: 40px;
+  }
+
+  h1, h2 {
+    margin-left: 280px;
+    text-align: left;
+  }
+
+  .icons {
+    float: right;
+    margin-right: 40px;
+  }
+
+  .icons a {
+    font-size: 40px;
+    margin: 20px;
+  }
+
+}

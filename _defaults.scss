@@ -1,0 +1,21 @@
+
+*, *:before, *:after { box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
