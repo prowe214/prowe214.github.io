@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Paul Cullen Rowe</title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="styles/style.css" type="text/css" media="all" />
   </head>
   <body>
     <div class="container">
-    <header>
+    <header role='banner'>
       <section class="icons">
         <a href="https://github.com/prowe214"><i class="fa fa-github"></i></a>
         <a href="https://medium.com/@prowe214"><i class="fa fa-medium"></i></a>
@@ -22,7 +22,7 @@
       <h2><em>Full Stack Software Engineer</em></h2>
     </header>
 
-    <aside>
+    <aside role='complementary'>
       <img src="img/paul2.jpg" alt="paul" class="profpic"/>
       <p>I'm a full-stack software engineer and will be graduating from the Galvanize Full Stack program in October 2015.  I love building businesses and expanding projects, and am excited to jump in to a team with a strong pair-oriented development intitiative.  I want to learn from experienced veterans, and take that education to the next level!</p>
       <hr />
@@ -30,33 +30,39 @@
       <p><strong>Tools: </strong>Vim, Git, Node, Github, Divshot, Bootstrap</p>
     </aside>
 
-    <main>
+    <main role='main'>
       <h3>Project Portfolio</h3>
-      <article class="clearfix">
+      <article class="clearfix" role='article'>
+        <a href="http://prowe214.github.io/reddit-api-js/" ><img src="img/cssgrid.png" alt="css grid" /></a>
+        <h4>Reddit API</h4>
+        <h5>Languages: Javascript, JSON, HTML. Tools: LocalStorage.</h5>
+        <p>Worked with JSON objects from Reddit to build custom subreddits that persist through the next time that the user visits the page. Parsed Reddit data using JSON and utilized LocalStorage to store user data to the user's personal information and preferences.</p>
+      </article>
+      <article class="clearfix" role='article'>
         <a href="http://prowe214.github.io/css-grid/" ><img src="img/cssgrid.png" alt="css grid" /></a>
         <h4>CSS Grids</h4>
         <h5>Languages: HTML, CSS. Tools: Github.</h5>
         <p>Experimenting with Asymmetrical and Symmetrical grids in CSS styling. Not too much more to it than that!</p>
       </article>
-      <article class="clearfix">
+      <article class="clearfix" role='article'>
         <a href="http://prowe214.github.io/walking-man-exercise/" ><img src="img/walkingman.gif" alt="walking man" /></a>
         <h4>The Walking Man</h4>
         <h5>Languages: Javascript, HTML, CSS. Tools: Github.</h5>
         <p>Make the man walk to the right, and then when he hits the edge of the screen, turn around and walk back. Repeat.  Sounds easy, but this simple little exercise challenged me!  I explored a lot about the DOM and how to extract measurements from it in this exercise.</p>
       </article>
-      <article class="clearfix">
-        <a href="http://development.prowe214-musicplayer.divshot.io/"><img src="img/musicplayer.png" alt="musicplayer" /></a>
+      <article class="clearfix" role='article'>
+        <a href="http://development.prowe214-musicplayer.divshot.io/"><img src="img/musicplayer.png" alt="music player" /></a>
         <h4>Music Player</h4>
         <h5>Languages: Javascript, HTML, CSS. Tools: Github, Divshot.</h5>
         <p>This simple music player is Javascript based and interacts with four audio files.  The player functions as a typical player would, with each song playing individually and their Title and Artist names displaying in the header as they play.  This was our first interaction involving icons from Font Awesome as well.</p>
       </article>
-      <article class="clearfix">
+      <article class="clearfix" role='article'>
         <a href="http://prowe214.github.io/markdown-editor/"><img src="img/simplemarkdown.png" alt="markdown editor" /></a>
         <h4>Simple Markdown Editor</h4>
         <h5>Languages: Javascript, HTML, CSS, JSON. Tools: Github, Showdown.</h5>
         <p>The Markdown Editor was our first interaction with third-party Javascript libraries, utilizing a js.on package and Showdown (which parses HTML into Markdown format).  This project's purpose was actually intended to build coding speed, racing to execute rudimentary commands as quickly and accurately as possible (I was able to generate this page in 4 minutes and 38 seconds!)</p>
       </article>
-      <article class="clearfix">
+      <article class="clearfix" role='article'>
         <a href="http://prowe214.github.io/normal-reset/normalize/" ><img src="img/tweet.png" alt="tweet" /></a>
         <h4>Replicate a Tweet</h4>
         <h5>Languages: HTML, CSS. Tools: Github, Normalize, Reset.</h5>
@@ -64,7 +70,7 @@
       </article>
     </main>
 
-    <footer>
+    <footer role='contentinfo'>
       <a class="contact" href="mailto:prowe214@gmail.com">prowe214@gmail.com</a>
       <a class="contact" href="tel:+1-914-557-6006">(914) 557-6006</a>
     </footer>
